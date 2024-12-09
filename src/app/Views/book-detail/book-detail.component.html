@@ -1,6 +1,11 @@
-<div class="detail-home">
-    <section>
-        <p id="id">ID</p>
+<div class="detail-book">
+    <section class="item-book">
+      <!-- 📖 Información detallada del libro -->
+      <p id="id">ID: {{ bookselected.id }}</p>
+      <h2>Título: {{ bookselected.title }}</h2>
+      <p id="author">Autor: {{ bookselected.author }}</p>
     </section>
+    <!-- 🔙 Botón para regresar a la página principal -->
     <button (click)="gotoHome()">Regresar</button>
-</div>
+  </div>
+  
