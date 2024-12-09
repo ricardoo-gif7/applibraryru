@@ -6,7 +6,7 @@ export const routes: Routes = [
         loadComponent: () => import('./Views/books-list/books-list.component').then(m => m.BooksListComponent)
     },
     {
-        path: 'boos/:id',
+        path: 'books/:id',
         loadComponent: () => import('./Views/book-detail/book-detail.component').then(m => m.BookDetailComponent)
     },
     {
