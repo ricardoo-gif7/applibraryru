@@ -7,11 +7,11 @@ export const routes: Routes = [
     },
     {
         path: 'boos/:id',
-        loadComponent: () => import('./Views/book-detail/book-detail.component').then(m=>m.BookDetailComponent)
+        loadComponent: () => import('./Views/book-detail/book-detail.component').then(m => m.BookDetailComponent)
     },
     {
         path: 'not-found/:id',
-        loadComponent: () => import('./Views/not-found/not-found.component').then(m=>m.NotFoundComponent)
+        loadComponent: () => import('./Views/not-found/not-found.component').then(m => m.NotFoundComponent)
     },
     {
         path: '**',
