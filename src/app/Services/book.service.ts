@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Book } from '../Models/book';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class BookService {
 
@@ -12,7 +12,7 @@ export class BookService {
     { id: 3, title: 'Cien Años de Soledad', author: 'Gariel García Márquez'},
   ];
 
-  constructor() { }
+  constructor() {}
 
 
   getBooks(): Book[] {
